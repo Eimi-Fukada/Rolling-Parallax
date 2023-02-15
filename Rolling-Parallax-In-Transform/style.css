@@ -1,0 +1,39 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  margin: 0;
+  padding: 0;
+  perspective: 2px;
+  transform-style: preserve-3d;
+  transform-origin: center center;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.g-container {
+  position: relative;
+  transform-style: preserve-3d;
+  height: 150%;
+}
+.g-container div {
+  font-size: 5vw;
+  position: absolute;
+  top: 20%;
+}
+.section-one {
+  left: 0%;
+  background: rgba(10, 10, 10, 0.2);
+  transform: translateZ(-1px);
+}
+.section-two {
+  left: 40%;
+  background: rgba(30, 130, 30, 0.2);
+  transform: translateZ(-2px);
+}
+.section-three {
+  left: 90%;
+  background: rgba(200, 100, 130, 0.2);
+  transform: translateZ(-3px);
+}
