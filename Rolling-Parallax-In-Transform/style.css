@@ -5,16 +5,15 @@ html {
 body {
   margin: 0;
   padding: 0;
-  perspective: 2px;
-  transform-style: preserve-3d;
-  transform-origin: center center;
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
+  perspective: 2px;
 }
 .g-container {
   position: relative;
   transform-style: preserve-3d;
+  transform-origin: center center;
   height: 150%;
 }
 .g-container div {
