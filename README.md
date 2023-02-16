@@ -9,7 +9,12 @@
 3. 仅使用 css，核心在于 transform-style: preserve-3d; transform: translateZ(-1px)，使得各个元素在 Z 轴上的位置不同，从而实现视差效果
 
 ## 预览图
-
-![2](https://user-images.githubusercontent.com/53120187/219005132-e74f7838-5898-4d81-b93a-23ef7e4d3875.png)
+![1](https://user-images.githubusercontent.com/53120187/219317434-7b34a775-f9fe-41d0-b9c7-ffa6ab9c8e1d.gif)
 
 ![3](https://user-images.githubusercontent.com/53120187/219005169-aab8df28-7b22-4d4c-9937-edffadc02b01.png)
+
+![6](https://user-images.githubusercontent.com/53120187/219317498-e587ef16-9a3f-4704-be9f-379f457e77d7.gif)
+
+
+## 博客地址（附详解）  
+https://juejin.cn/post/7200653122637103164/
